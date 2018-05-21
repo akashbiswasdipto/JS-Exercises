@@ -5,7 +5,7 @@ console.log("External JS")
 
 function sumArray(arr){
     var sum=0;
-    arr.forEach(function(value, index))
+    arr.forEach(function(value, index)
     {
         sum +=value;
     });
