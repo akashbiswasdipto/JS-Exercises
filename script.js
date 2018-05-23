@@ -75,3 +75,21 @@ function addItem(newItem){
 }
 var newItem={name: 'watch', price:64,quantity:1};
 addItem(newItem);
+
+//task5b
+
+function sortCart(keyame){
+    //
+}
+
+//task5c
+
+function findbyName(name){
+    
+}
+
+//task5d
+
+function totalprice(){
+    
+}
