@@ -79,8 +79,11 @@ addItem(newItem);
 //task5b
 
 function sortCart(keyame){
-    //
+    
 }
+
+var keyname={price};
+sortCart(keyname);
 
 //task5c
 
