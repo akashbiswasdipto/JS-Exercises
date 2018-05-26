@@ -80,16 +80,25 @@ addItem(newItem);
 
 function sortCart(keyame){
     
+    cart.sort(function (a, b) {
+  return a.value - b.value;
+    });
 }
+var name='price';
+sortCart(name);
 
-var keyname={price};
-sortCart(keyname);
+
+
 
 //task5c
 
-function findbyName(name){
-    
+function findbyName(name)
+{
+    var a= cart.indexOf(name);
+    console.log(a);
 }
+var searchname="watch";
+findbyName(searchname);
 
 //task5d
 
