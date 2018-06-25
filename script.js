@@ -78,7 +78,7 @@ addItem(newItem);
 
 //task5b
 
-function sortCart(keyame){
+function sortCart(keyname){
     
     cart.sort(function (a, b) {
   return a.value - b.value;
